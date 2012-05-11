@@ -424,7 +424,7 @@ sb[]  =  {0.0,3.03380607434824582924e+01, /* 0x403E568B, 0x261D5190 */
     }
 }
 
-#ifdef _WIN32 && _DEBUG
+#if defined _WIN32 && defined _TEST
 #include <stdio.h>
 int main(void)
 {

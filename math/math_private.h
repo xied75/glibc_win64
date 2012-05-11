@@ -19,7 +19,7 @@ Most func declaration/prototype removed to avoid unexpected happens.
 2012-05-08*/
 
 #ifdef _WIN32
-#define uint32_t u_int32_t;
+#define u_int32_t uint32_t
 #endif
 
 #ifndef _MATH_PRIVATE_H_
