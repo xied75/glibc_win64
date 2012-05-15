@@ -21,6 +21,9 @@ What's New
 
 1, a header for math functions: math/_math_.h
 
+2012-05-15:
+
+1, math function: isinf
 
 ===========
 

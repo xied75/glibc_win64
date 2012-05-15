@@ -34,4 +34,10 @@ double __lgamma(double x);
 
 /* end of w_lgamma.c */
 
+/* functions in s_isinf.c */
+
+int __isinf (double x);
+
+/* end of s_isinf.c */
+
 #endif

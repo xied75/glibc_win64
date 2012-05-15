@@ -310,7 +310,7 @@ __ieee754_lgamma_r(double x, int *signgamp)
     return r;
 }
 
-#ifdef _WIN32 && _DEBUG
+#if defined _WIN32 && defined _TEST
 #include <stdio.h>
 int main(void)
 {
