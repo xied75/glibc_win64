@@ -155,5 +155,36 @@ do {								\
   (d) = sf_u.value;						\
 } while (0)
 
+/* ieee style elementary functions */
+extern double __ieee754_sqrt (double);
+extern double __ieee754_acos (double);
+extern double __ieee754_acosh (double);
+extern double __ieee754_log (double);
+extern double __ieee754_atanh (double);
+extern double __ieee754_asin (double);
+extern double __ieee754_atan2 (double,double);
+extern double __ieee754_exp (double);
+extern double __ieee754_exp2 (double);
+extern double __ieee754_exp10 (double);
+extern double __ieee754_cosh (double);
+extern double __ieee754_fmod (double,double);
+extern double __ieee754_pow (double,double);
+extern double __ieee754_lgamma_r (double,int *);
+extern double __ieee754_gamma_r (double,int *);
+extern double __ieee754_lgamma (double);
+extern double __ieee754_gamma (double);
+extern double __ieee754_log10 (double);
+extern double __ieee754_log2 (double);
+extern double __ieee754_sinh (double);
+extern double __ieee754_hypot (double,double);
+extern double __ieee754_j0 (double);
+extern double __ieee754_j1 (double);
+extern double __ieee754_y0 (double);
+extern double __ieee754_y1 (double);
+extern double __ieee754_jn (int,double);
+extern double __ieee754_yn (int,double);
+extern double __ieee754_remainder (double,double);
+extern int32_t __ieee754_rem_pio2 (double,double*);
+extern double __ieee754_scalb (double,double);
 
 #endif /* _MATH_PRIVATE_H_ */
